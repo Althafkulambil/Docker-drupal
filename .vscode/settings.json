@@ -1,0 +1,67 @@
+{
+  "breadcrumbs.enabled": true,
+  "css.validate": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 2,
+  "editor.autoIndent": "full",
+  "editor.insertSpaces": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off",
+  "editor.detectIndentation": true,
+  "editor.rulers": [
+    80
+  ],
+  "files.associations": {
+    "*.inc": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.theme": "php",
+    "*.profile": "php",
+    "*.tpl.php": "php",
+    "*.test": "php",
+    "*.php": "php",
+    "*.info": "ini",
+    "*.html": "twig"
+  },
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.restoreUndoStack": false,
+  "files.insertFinalNewline": true,
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 80,
+  "telemetry.telemetryLevel": "off",
+  /* Empty Indent */
+  "emptyIndent.removeIndent": true,
+  "emptyIndent.highlightIndent": false,
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+  "phpsab.snifferEnable": true,
+  "phpsab.standard": "Drupal,DrupalPractice",
+  "phpsab.snifferArguments": [
+    "--extensions=inc,theme,install,module,profile,php,phtml"
+  ],
+  "phpsab.fixerArguments": [
+    "--extensions=inc,theme,install,module,profile,php,phtml"
+  ],
+  "phpsab.fixerEnable": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "phpsab.executablePathCS": "/home/althaf/.config/composer/vendor/bin/phpcs",
+  "php.validate.enable": true,
+  "php.validate.executablePath": "./php",
+  "php.validate.run": "onType",
+  "php.suggest.basic": false,
+  // PHP IntelliSense only:
+  "php.executablePath": "./php",
+  // Intelephense and Drupal >8 only. This should be set to the path to core/index.php.
+  "intelephense.environment.documentRoot": "core",
+  "php-docblocker.gap": true,
+  "php-docblocker.useShortNames": true,
+  "composer.enabled": true,
+  "composer.executablePath": "/usr/local/bin/composer"
+}
